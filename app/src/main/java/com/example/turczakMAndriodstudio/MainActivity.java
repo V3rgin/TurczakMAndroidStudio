@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         bdisable = findViewById(R.id.Bdisable);
-
+        breset = findViewById(R.id.breset);
+        counter = findViewById(R.id.counter);
         bdisable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
